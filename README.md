@@ -9,7 +9,8 @@ It includes role-based access, feedback management and absence requests.
 
 ### 1. Prerequisites
 - **Docker** and **Docker Compose**
-- (optional) Node 20+ and npm 10+ for local dev without Docker
+- (optional) Node 20+ and npm 10+ for local dev
+- populate the .env values: JWT Secret + HF API Key
 
 ---
 
@@ -40,11 +41,11 @@ docker-compose run backend npx knex seed:run --knexfile dist/db/knexfile.js
 ```
 
 ### 4. Default test users
-| Role          | Email                                         | Password     |
-| ------------- | --------------------------------------------- | ------------ |
-| 🧑‍💼 Manager    | [manager@org.test](mailto:manager@org.test)   | Password123! |
-| 👷 Employee   | [employee@org.test](mailto:employee@org.test) | Password123! |
-| 🤝 Co-worker  | [coworker@org.test](mailto:coworker@org.test) | Password123! |
+| Role          | Email               | Password     |
+| ------------- | --------------------| ------------ |
+| 🧑‍💼 Manager    | [manager@org.test]  | Password123! |
+| 👷 Employee   | [employee@org.test] | Password123! |
+| 🤝 Co-worker  | [coworker@org.test] | Password123! |
 
 
 ## 🏗️ Architecture Overview
