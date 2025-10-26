@@ -65,7 +65,7 @@ export default function Header() {
           </span>
           <button
             onClick={handleLogout}
-            className="px-1 py-1 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition"
+            className="px-3 py-1 bg-gray-200 text-gray-700 text-sm rounded-md hover:bg-gray-300 transition"
           >
             Logout
           </button>

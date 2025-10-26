@@ -105,7 +105,7 @@ State/Auth: Context API (AuthContext)
 ## 🧠 Future Improvements
 
 ### 🔧 Backend:
- - Forgot password
+ - Forgot password && Create new user 
  - POSTMAN collection
  - Use models in services instead of doing the DB work in services to separate logic
  - use DTOs + 'class-validator' for validation and keep controllers clean
@@ -113,7 +113,7 @@ State/Auth: Context API (AuthContext)
 
 ### 🎨 Frontend:
  - Dark mode theme toggle.
- - Forgot password
+ - Forgot password && Create new user 
  - Absence modal in new component instead of ProfilePage
 
 
