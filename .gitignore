@@ -1,0 +1,78 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Build output
+dist/
+build/
+coverage/
+.cache/
+.tmp/
+out/
+
+# Docker
+docker-compose.override.yml
+docker-compose.dev.yml
+docker-compose.prod.yml
+.docker/
+**/Dockerfile.local
+**/Dockerfile.dev
+
+# Volumes and runtime data
+volumes/
+data/
+storage/
+uploads/
+*.db
+*.sqlite
+
+# Frontend/Backend generated files
+frontend/dist/
+frontend/.vite/
+backend/dist/
+
+# Dependency locks (optional)
+# Uncomment below if using only one package manager consistently
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Miscellaneous
+*.tgz
+*.bak
+*.old
+*.orig
+*.rej
+*.tmp
+
+# Test artifacts
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Reports
+reports/
+*.report
