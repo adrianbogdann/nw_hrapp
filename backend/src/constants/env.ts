@@ -5,5 +5,4 @@ export const ENV = {
   DB_PASSWORD: process.env.DB_PASSWORD,
   DB_NAME: process.env.DB_NAME,
   JWT_SECRET: process.env.JWT_SECRET || "replace_me",
-  HUGGINGFACE_API_KEY: process.env.HUGGINGFACE_API_KEY || ""
 }
